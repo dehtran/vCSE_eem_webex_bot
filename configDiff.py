@@ -17,6 +17,12 @@ clients['Slack'] = {
     "data": {"text": ""}
 }
 
+clients['Microsoft Teams'] = {
+    "url": https://HOST_URL/api/messages,
+    "headers": {"Content-Type": "application/json"},
+    "data": {"text": ""}
+}
+
 use_proxy = True
 
 http_proxy = mytokens.http_proxy
