@@ -18,7 +18,7 @@ clients['Slack'] = {
 }
 
 clients['Microsoft Teams'] = {
-    "url": https://HOST_URL/api/messages,
+    "url": mytokens.teams_webhook_url,
     "headers": {"Content-Type": "application/json"},
     "data": {"text": ""}
 }
